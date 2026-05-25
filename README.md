@@ -98,7 +98,7 @@ Deployment:
 
 ```bash
 git clone https://github.com/Nex-Core-69/Nex-Rbg.git && \
-cd nex-rbg && \
+cd Nex-Rbg && \
 npm install && \
 npm start
 ```
@@ -118,7 +118,7 @@ git clone https://github.com/Nex-Core-69/Nex-Rbg.git
 ### 2️⃣ Open Project Folder
 
 ```bash
-cd nex-rbg
+cd Nex-Rbg
 ```
 
 ---
@@ -231,7 +231,7 @@ pkg install nodejs-lts git nano -y
 
 ```bash
 git clone https://github.com/Nex-Core-69/Nex-Rbg.git
-cd nex-rbg
+cd Nex-Rbg
 ```
 
 ---
@@ -531,8 +531,8 @@ npm start
 
 ```bash
 pkg install nodejs-lts git
-git clone YOUR_REPO_URL
-cd nex-rbg
+git clone https://github.com/Nex-Core-69/Nex-Rbg.git
+cd Nex-Rbg
 npm install
 npm start
 ```
