@@ -97,7 +97,7 @@ Deployment:
 ## 🚀 One Click Installation
 
 ```bash
-git clone https://github.com/nex-core-69/nex-rbg.git && \
+git clone https://github.com/Nex-Core-69/Nex-Rbg.git && \
 cd nex-rbg && \
 npm install && \
 npm start
@@ -110,7 +110,7 @@ npm start
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/nex-core-69/nex-rbg.git
+git clone https://github.com/Nex-Core-69/Nex-Rbg.git
 ```
 
 ---
@@ -230,7 +230,7 @@ pkg install nodejs-lts git nano -y
 ## 📂 Step 4 — Clone Repository
 
 ```bash
-git clone https://github.com/nex-core-69/nex-rbg.git
+git clone https://github.com/Nex-Core-69/Nex-Rbg.git
 cd nex-rbg
 ```
 
@@ -361,7 +361,7 @@ http://YOUR_PHONE_IP:3000
 git init
 git add .
 git commit -m "Initial Commit"
-git remote add origin https://github.com/YOUR_USERNAME/nex-rbg.git
+git remote add origin https://github.com/Nex-Core-69/Nex-Rbg.git
 git push -u origin main
 ```
 
