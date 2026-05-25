@@ -29,6 +29,9 @@ if (!fs.existsSync("uploads")) {
 
 app.use(express.static("public"));
 app.use(express.json({ limit: '10mb' }));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "nex.html"));
+});
 
 app.post("/remove-bg", upload.single("image"), async (req, res) => {
   let filePath = null;
@@ -81,8 +84,8 @@ app.post("/remove-bg", upload.single("image"), async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`NEX-RBG Server running on ${PORT}`);
+  console.log(`NEX-RBG Server running on Port ${PORT}`);
   console.log(`Nex Core Background Removal Tool`);
 });
